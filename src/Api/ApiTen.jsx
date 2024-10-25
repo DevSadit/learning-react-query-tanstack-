@@ -8,3 +8,5 @@ export const getUsers = async () => {
   const res = await api.get("/users");
   return res.status === 200 ? res.data : [];
 };
+
+
